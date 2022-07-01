@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_seo_seos",
+  "info": {
+    "displayName": "Seo",
+    "icon": "globe-americas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_detail_pages",
+  "info": {
+    "singularName": "product-detail-page",
+    "pluralName": "product-detail-pages",
+    "displayName": "Product detail page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "detail": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "product.product-detail"
+    }
+  }
+}

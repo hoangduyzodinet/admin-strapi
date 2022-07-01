@@ -1,0 +1,35 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^1.1.0",
+    "@strapi/plugin-graphql": "4.2.0",
+    "@strapi/plugin-i18n": "4.2.0",
+    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/strapi": "4.2.0",
+    "better-sqlite3": "7.4.6"
+  },
+  "resolutions": {
+    "@strapi/admin": "https://gitpkg.now.sh/Zodinet/strapi/packages/core/admin?19f8e7412486c707118906dccd1c10a466b8b822"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "ae8b61ca-118c-400f-b960-91f3e41dd513"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

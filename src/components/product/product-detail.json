@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_product_product_details",
+  "info": {
+    "displayName": "Product detail",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product-detail.product-detail"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
